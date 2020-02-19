@@ -1,0 +1,106 @@
+body{
+    background: #F6FAFD;
+}
+
+.o-calculator-container{
+    justify-content: center;
+    display: flex;
+    margin: 25vh;
+    flex-wrap:wrap;
+
+}
+
+/*------*/
+
+.o-first-column-container{
+    background-color: grey;
+    margin-right: 1rem;
+    padding: 1rem;
+
+    
+}
+
+.o-title{
+
+}
+
+.o-numbers{
+
+}
+
+.o-operation{
+
+}
+
+/*---------*/
+
+.o-second-column-container{
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.o-equals{
+
+}
+
+.o-equals button{
+    border-radius: 30px;
+    width: 149px;
+    height: 50px;
+    background: #F70025;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    border: none;
+
+
+}
+
+/*----------*/
+
+.o-third-column-container{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    padding: 1rem;
+
+
+}
+
+.o-result{
+    width: 385px;
+    height: 195px;
+    left: 814px;
+    top: 401px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(100, 168, 221, 0.23);
+    border-radius: 21px;
+}
+
+.o-text-result{
+
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+.o-result p{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    margin: 2rem 0rem 0rem 2rem;
+
+    color: #BBC7D6;
+
+
+}
