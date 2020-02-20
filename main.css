@@ -1,5 +1,15 @@
 body{
     background: #F6FAFD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;    
+
+
+}
+
+body p{
+    font-size: 1rem;
+    margin: 2rem 0rem 0rem 0rem;
 }
 
 .o-calculator-container{
@@ -13,30 +23,60 @@ body{
 /*------*/
 
 .o-first-column-container{
-    background-color: grey;
-    margin-right: 1rem;
-    padding: 1rem;
-
+    margin-right: 1rem;    
     
 }
 
-.o-title{
+.o-title {
+    font-style: normal;
+    font-size: 35px;
+    color: #2F4251;
 
 }
 
+.o-title p{
+    font-size: 35px;
+    color: #2F4251;
+    
+}
+
 .o-numbers{
+    color: #BBC7D6;
+    font-size: 14px;
+    
+}
+
+.o-numbers input{
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    width: 15rem;
+    border-bottom: 2px solid #2F4251;;
+    color: #2F4251;
 
 }
 
 .o-operation{
+    color: #BBC7D6;
 
 }
 
+
+.o-operation select{
+    background: #2F4251;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    text-align-last:center;
+    width: 15rem;
+    color: white;
+
+}
 /*---------*/
 
 .o-second-column-container{
     display: flex;
-    background-color: blue;
     align-items: center;
     padding: 1rem;
 
@@ -51,14 +91,10 @@ body{
     width: 149px;
     height: 50px;
     background: #F70025;
-
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     border: none;
-
 
 }
 
@@ -70,37 +106,27 @@ body{
     margin-left: 1rem;
     padding: 1rem;
 
-
 }
 
 .o-result{
     width: 385px;
     height: 195px;
-    left: 814px;
-    top: 401px;
-
     background: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(100, 168, 221, 0.23);
     border-radius: 21px;
 }
 
 .o-text-result{
-
     margin-left: 2rem;
+    font-style: normal;
+    font-weight: bold;
     font-size: 3rem;
+    color: #2F4251;
+
 }
 
 .o-result p{
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-
-    margin: 2rem 0rem 0rem 2rem;
-
+    margin: 3.5rem 0rem 0rem 2rem;
     color: #BBC7D6;
-
 
 }
