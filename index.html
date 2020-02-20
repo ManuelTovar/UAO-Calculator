@@ -8,7 +8,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script src='main.js'></script>
+    <script src='main.js' defer></script>
+
 </head>
 
 <body>
@@ -27,7 +28,7 @@
             <div class="o-numbers">
 
                 <p>Numero 1</p>
-                <input type="text" id="nuNumber1">
+                <input type="text" id="nuNumber1" onkeypress="return isNumberKey(event)">
                 <p>Numero 2</p>
                 <input type="text" id="nuNumber2">
 
@@ -39,7 +40,7 @@
                 <select id="operation">
                     <option value="Suma">Suma</option>
                     <option value="Resta">Resta</option>
-                    <option value="Multplicación">Multiplicación</option>
+                    <option value="Multiplicación">Multiplicación</option>
                     <option value="Division">Division</option>
                 </select>
 
@@ -51,7 +52,7 @@
 
             <div class="o-equals">
 
-                <button type="button">=</button>
+                <button type="button" onclick="Operations()">=</button>
 
             </div>
 
@@ -62,7 +63,7 @@
             <div class="o-result">
                 <p>Resultado</p>
                 <div class="o-text-result">
-                    <label> 29 </label>
+                    <label id="result" >  </label>
                 </div>
 
             </div>
