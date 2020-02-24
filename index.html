@@ -28,9 +28,9 @@
             <div class="o-numbers">
 
                 <p>Numero 1</p>
-                <input type="text" id="nuNumber1" onkeypress="return isNumberKey(event)">
+                <input type="text" id="nuNumber1" onkeypress="return isNumberKey(event)" onpaste="return false">
                 <p>Numero 2</p>
-                <input type="text" id="nuNumber2" onkeypress="return isNumberKey(event)">
+                <input type="text" id="nuNumber2" onkeypress="return isNumberKey(event)" onpaste="return false"> 
 
             </div>
 
@@ -38,9 +38,9 @@
 
                 <p>Operación</p>
                 <select id="operation">
-                    <option value="Suma">Suma</option>
-                    <option value="Resta">Resta</option>
-                    <option value="Multiplicación">Multiplicación</option>
+                    <option value="Sum">Suma</option>
+                    <option value="Substraction">Resta</option>
+                    <option value="Multiplication">Multiplicación</option>
                     <option value="Division">Division</option>
                 </select>
 
